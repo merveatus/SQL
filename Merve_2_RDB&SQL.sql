@@ -71,7 +71,7 @@ GROUP BY Adv_Type
 
 SELECT Adv_Type, CONVERT(DECIMAL(2,2), SUM(order_status)*1.0/COUNT(Action)) 'Conversion_Rate'
 FROM total_action_order
-GROUP BY Adv_Type
+GROUP BY Adv_Type;
 
 
 
